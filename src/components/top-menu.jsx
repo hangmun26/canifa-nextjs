@@ -34,8 +34,8 @@ const TopMenu = () => {
                         </a>
                     </div>
 
-                    {/* Shopping Cart */}
-                    {/* <div className="header__navbar-cart">
+                    {/* Shopping Cart */} 
+                     <div className="header__navbar-cart">
                         <i className="header__navbar-icon fa-solid fa-bag-shopping"></i>
                         <span className="header-number">0</span>
 
@@ -50,7 +50,7 @@ const TopMenu = () => {
                                 Chưa có sản phẩm trong giỏ hàng của bạn.
                             </p>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </header>
