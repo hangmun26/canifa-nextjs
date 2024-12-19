@@ -1,0 +1,113 @@
+
+.product {
+    width: 100%;
+    margin: auto;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__coulmn-1 {
+    width: 25%;
+
+}
+
+.grid__coulmn-3 {
+    width: 75%;  
+    display: flex;
+
+}
+
+.body__boy-img {
+    width: 100%;
+    padding: 20px 0;
+}
+
+
+/* NEW */
+
+.grid__new { 
+    max-width: 100%;
+    margin: auto;
+}
+
+.grid__row-new {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.grid__coulmn-4 {
+    width: 25%;
+    height: auto;
+    display: flex;
+  
+} 
+
+.product__new {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0 4px;
+   
+}
+
+.container__product-new-img {
+    padding-top: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    max-width: 100%;
+
+}
+
+.grid__coulmn-3--old-price {
+ 
+}
+
+/* THÊM VÀO GIỎ HÀNG */
+
+
+.grid__coulmn-chia3-shopping {
+    position: absolute;
+    padding: 8px 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    color: #000;
+    font-size: 13px;
+    right: 46px;
+    display: none;
+    cursor: pointer;
+
+}
+
+.grid__coulmn-chia3:hover .grid__coulmn-chia3-shopping {
+    display: block;
+}
+
+.grid__coulmn-3--option {
+    color: rgb(237, 105, 105);
+
+    
+}
+
+.grid__coulmn-3--price-coat {
+    color: #74869b;
+}
+
+.grid__coulmn-3--old-price {
+    color: #ccc;
+}
+
+.grid__coulmn-3--name-link {
+    text-decoration: none;
+}
+
+.grid__coulmn-3--name:hover {
+    color: red;
+}
+
