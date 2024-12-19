@@ -1,11 +1,14 @@
 import React from "react";
 import {Cart} from "../../components/Cart";
+import CartPageSize from "../../components/CartPageSize";
 
 const CartPage = () => {
   return (
 
     <div className="cart__size">
-      <Cart></Cart>
+      {/*<Cart></Cart>*/}
+
+
       <div className="cart__name">
         <ul className="cart__name-list">
           <li>
@@ -77,18 +80,8 @@ const CartPage = () => {
 
           <div className="cart__info--label">
             <p className="cart__info--label-size">Kích cỡ:</p>
-            <div className="cart__info--error">
-              <ul className="cart__info--error-list">
-                <li className="cart__info--error-item">90</li>
-                <li className="cart__info--error-item">100</li>
-                <li className="cart__info--error-item">110</li>
-                <li className="cart__info--error-item">120</li>
-                <li className="cart__info--error-item">130</li>
-                <li className="cart__info--error-item">140</li>
-                <li className="cart__info--error-item">150</li>
-                <li className="cart__info--error-item nhat">160</li>
-              </ul>
-            </div>
+            <CartPageSize></CartPageSize>
+
           </div>
 
           <div className="cart__info--guide">
