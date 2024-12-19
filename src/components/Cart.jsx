@@ -1,4 +1,4 @@
-const Cart = () => {
+export const Cart = () => {
   return (
     <div className="header__navbar-cart">
       <i className="header__navbar-icon fa-solid fa-bag-shopping"></i>
@@ -18,4 +18,3 @@ const Cart = () => {
     </div>
   );
 };
-export default Cart;

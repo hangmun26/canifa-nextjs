@@ -1,10 +1,11 @@
 import React from "react";
-import Cart from "../components/Cart";
+import {Cart} from "../../components/Cart";
 
 const CartPage = () => {
   return (
+
     <div className="cart__size">
-      <Cart />
+      <Cart></Cart>
       <div className="cart__name">
         <ul className="cart__name-list">
           <li>
