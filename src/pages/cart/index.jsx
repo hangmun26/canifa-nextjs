@@ -12,7 +12,7 @@ const CartPage = () => {
       <div className="cart__name">
         <ul className="cart__name-list">
           <li>
-            <a href="#">Trang chủ </a>
+            <a href="/">Trang chủ </a>
           </li>
           <li>
             <a href="#">Bé trai</a>
